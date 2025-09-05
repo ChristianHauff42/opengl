@@ -9,7 +9,7 @@ void GLClearError()
 }
 
 // print error codes to console
-static bool GLLogCall(const char* function, const char* file, int line)
+bool GLLogCall(const char* function, const char* file, int line)
 {
     while (GLenum error = glGetError())
     {

@@ -9,4 +9,4 @@
     
 
 void GLClearError();
-static bool GLLogCall(const char* function, const char* file, int line);
+bool GLLogCall(const char* function, const char* file, int line);
